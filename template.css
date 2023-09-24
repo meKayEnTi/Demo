@@ -1,0 +1,96 @@
+/* reset margin & padding */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.banner {
+    height: 500px;
+    /* background the hien chung cho cac thuoc tinh background- */
+    background: url('./banner-mobile.jpg') center no-repeat;
+    background-size:cover; 
+    overflow: hidden;
+    padding: 20px;
+}
+
+.red {
+    border:  1px solid red;
+}
+
+.green{
+    border: 1px solid green;
+}
+
+.about-sign-in{
+    height: 80px;
+    width: 100%;
+    text-align: right;
+}
+
+.about, .sign-in{
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 7px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.sign-in{
+    border: 1px solid green;
+    color: green;
+    border-radius: 20px;
+    margin-right: 60px;
+    margin-left: 25px;
+}
+
+.logo{
+    background: url('./hapoERP.png') center center no-repeat;
+    margin-top: 40px;
+    height: 100px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.start-button {
+    text-align: center;
+}
+
+.button {
+    text-transform: uppercase;
+    border: 1px solid black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 25px;
+    background-color: green;
+    cursor: pointer;
+}
+
+.content-center{
+    height: 50px;
+}
+
+.gift , .clock , .like {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+span {
+    display: block;
+}
+
+/* class cha -> class con */
+
+.text span {
+    color: green;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
